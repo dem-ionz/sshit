@@ -1,7 +1,7 @@
 # sshit SSH Scanner - if you can't pwn at least one ssh you get your money back... wait... :\
 
- PPC: PDdmgSMVhLmPV6pG6TmcGuzrJbWxZ1hegb
- BTC: 1NigBtHWMzhzWTehuhdK6KLjbuCsftxNRS
+
+BTC: 1NigBtHWMzhzWTehuhdK6KLjbuCsftxNRS
 
  Hey hosting my servers ain't free. ;)
 
