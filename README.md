@@ -1,4 +1,9 @@
-# sshit
+# sshit 
+# PPC: PDdmgSMVhLmPV6pG6TmcGuzrJbWxZ1hegb
+# BTC: 1NigBtHWMzhzWTehuhdK6KLjbuCsftxNRS
+
+# Hey hosting my servers ain't free. ;)
+
 the simplest little ssh scanner bruteforce tool - 
 finds cisco ios boxes, busybox, WAP routers, Sonic wall firewalls, and more. ;)
 for now only uses the username root, and the password admin (hey they're default a lot of places) 
