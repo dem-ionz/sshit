@@ -3,7 +3,8 @@
 
 ######################################################
 #Usage python scan.py <1st Ip Number> <2nd Ip Number>#
-#$./dssh.py 98 112                                   #
+# $./sshit.py 98 112
+# until this fucker is fixed just kill it in another term
 ######################################################
 import optparse
 import socket
@@ -16,12 +17,12 @@ import signal
 uname = 'root'
 pwd = 'admin'
 
-print ("DEFAULTed SSHscanner hacked together by ioNoSpHeRe");
+print ("SShit scanner hacked together by ioNoSpHeRe");
 raw_input("Press <ENTER> to being scans..\n\n ")
 
 def f(ip):
     try:
-	#Comment the below print out for only root works message
+	# Output on screen
         print "Current IP [", ip, "]"
         ssh.connect(ip, username=uname,password=pwd, timeout=1)
     except Exception:
