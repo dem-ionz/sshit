@@ -1,8 +1,7 @@
 # sshit SSH Scanner - if you can't pwn at least one ssh you get your money back... wait... :\
 
 
- PPC: PDdmgSMVhLmPV6pG6TmcGuzrJbWxZ1hegb
- BTC: 1NigBtHWMzhzWTehuhdK6KLjbuCsftxNRS
+
 
  Hey hosting my servers ain't free. ;)
 
@@ -23,4 +22,9 @@ Hit enter when it tells you.
 
 6) kill the python script in another terminal
 
-7) $cat rooted.txt - check for loot.
+7) $cat rooted.txt - check for loot
+
+8) give me some crypto for my time (optional)
+
+PPC: PDdmgSMVhLmPV6pG6TmcGuzrJbWxZ1hegb
+BTC: 1NigBtHWMzhzWTehuhdK6KLjbuCsftxNRS
