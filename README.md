@@ -7,7 +7,7 @@ for now only uses the username root, and the password admin (hey they're default
 2) chmod +x it
 3) pick a range, like 125.12 
 
-$./sshit.py 125.12
+$./sshit.py 125 12 (don't include the dot, it will error out, another fix for later.)
 Hit enter when it tells you.
 
 4) ???? wait
