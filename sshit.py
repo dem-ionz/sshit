@@ -10,18 +10,23 @@ import optparse
 import socket
 from multiprocessing import Process
 import time
-import paramiko
 import sys
+
+try:
+	import paramiko
+except ImportError:
+	print('[!] You do not have paramiko installed!\n')
+	sys.exit(1)
 
 uname = 'root'
 pwd = 'admin'
 
-print ("SShit scanner hacked together by ioNoSpHeRe");
+print ("SShit SSH scanner hacked together by ioNoSpHeRe");
 raw_input("Press <ENTER> to being scans..\n\n ")
 
 def f(ip):
     try:
-	# Output on screen
+	#displaying screen output -_- fairly fast.
         print "Current IP [", ip, "]"
         ssh.connect(ip, username=uname,password=pwd, timeout=1)
     except Exception:
@@ -52,7 +57,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 
 
