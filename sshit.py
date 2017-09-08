@@ -12,7 +12,6 @@ from multiprocessing import Process
 import time
 import paramiko
 import sys
-import signal
 
 uname = 'root'
 pwd = 'admin'
