@@ -26,5 +26,3 @@ Hit enter when it tells you.
 
 8) give me some crypto for my time (optional)
 
-PPC: PDdmgSMVhLmPV6pG6TmcGuzrJbWxZ1hegb
-BTC: 1NigBtHWMzhzWTehuhdK6KLjbuCsftxNRS
