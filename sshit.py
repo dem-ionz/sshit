@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# Hacked together by ioNoSpHeRe
 
 ######################################################
 #Usage python scan.py <1st Ip Number> <2nd Ip Number>#
@@ -21,7 +20,7 @@ except ImportError:
 uname = 'root'
 pwd = 'admin'
 
-print ("SShit SSH scanner hacked together by ioNoSpHeRe");
+print ("SShit SSH scanner hacked together by w0osh`");
 raw_input("Press <ENTER> to being scans..\n\n ")
 
 def f(ip):
