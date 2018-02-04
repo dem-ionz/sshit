@@ -10,9 +10,10 @@ import socket
 from multiprocessing import Process
 import time
 import sys
-
+import warnings
+warnings.simplefilter(action="ignore", category=FutureWarning)
 try:
-	import paramiko
+ import paramiko
 except ImportError:
 	print('[!] You do not have paramiko installed!\n')
 	sys.exit(1)
@@ -49,13 +50,13 @@ def main():
                    ip = sys.argv[1] + "." + sys.argv[2] + ".%d.%d" % (pp,kk)
                    p = Process(target=f, args=(ip,))
                    p.start()
+                   p.join()
 
-    p.join()
+def bye():
+    print "[!] ACK => BYE! :)"
 
-
-
-if __name__ == "__main__":
-    main()
-
-
-
+if __name__ == '__main__':
+    try:
+        main()
+    except KeyboardInterrupt:
+        bye()
