@@ -3,7 +3,7 @@
 ######################################################
 #Usage python scan.py <1st Ip Number> <2nd Ip Number>#
 # $./sshit.py 98 112
-# until this fucker is fixed just kill it in another term
+# Exit With CTRL-C
 ######################################################
 import optparse
 import socket
