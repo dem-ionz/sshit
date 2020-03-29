@@ -26,3 +26,5 @@ Hit enter when it tells you.
 
 8) give me some crypto for my time (optional)
 
+BTC: 1Je7pBQJ5d4yAEmjfjBsRCa9UDUMzxZvQf
+
